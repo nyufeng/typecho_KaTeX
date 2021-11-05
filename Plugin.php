@@ -97,7 +97,7 @@ class Plugin implements PluginInterface
                 $url = str_replace('{version}', $version, self::$cdnList[1]);
                 break;
             default:
-                $url = $options->pluginUrl . '/KaTeX/dist/';
+                $url = $options->pluginUrl . '/typecho_KaTeX/dist/';
                 break;
         }
         $cdnSrcArray['katex.min.css'] = $url . 'katex.min.css';
